@@ -1,6 +1,7 @@
 /* Page */
 body {
   background-color:#F8F3E3;
+  font-family:'Open Sans',Arial,Helvetica,sans-serif;
 }
 div#primary-menu-bar ul {
 text-align:center;
@@ -23,6 +24,7 @@ display:none;
 /* Header */
 #page > header {
 background:#4B0173 url("../banner.png") no-repeat;
+position:relative;
 }
 #logo {
   margin: 0 10px;
@@ -35,18 +37,15 @@ background:#4B0173 url("../banner.png") no-repeat;
   color:#e3c041;
   text-transform:uppercase;
   text-decoration:none;
-  font-weight:500;
-  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
   font-size:1.14em;
   margin-left:20px;
   line-height:1em;
-  letter-spacing:0.1em;
   }
 
 /* Page title */
 h1#page-title {
   font-weight:500;
-  font-family: 'Open Sans', sans-serif;
 }
 .front h1#page-title {
   display:none;
@@ -67,13 +66,22 @@ h1#page-title {
 .region-sidebar-second {}
 
 /* Footer - the main page footer only */
-#page > footer {}
+#page > footer {
+  background:#E2BF41;
+}
 
 /* Feed icons */
 #feed-icons {}
 #feed-icons .feed-icon {}
 #feed-icons .feed-icon img {}
 #feed-icons a.feed-icon {}
+
+/* Search box */
+#block-search-form {
+  position: absolute;
+  right:1%;
+  top:40%;
+}
 
 /* Search results list. */
 .search-results {}

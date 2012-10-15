@@ -12,11 +12,28 @@ a:active,
 a:focus {}
 
 /**
- * Primary, Seondary and Menu bar menus, use one of the following id's for granular control:
+ * Primary, Secondary and Menu bar menus, use one of the following id's for granular control:
  * #menu-bar
  * #primary-menu-bar
  * #secondary-menu-bar
  */
+div#primary-menu-bar ul {
+  width:60%;
+  padding-left:30%;
+  margin:1em 0 2em 0;
+  text-align:center;
+  text-decoration:none;
+  font-weight:500;
+  font-size:1.4em;
+}
+div#primary-menu-bar ul li a, div#primary-menu-bar ul li a:visited {
+  color:#000;
+  text-decoration:none;
+}
+div#primary-menu-bar ul li a:hover {
+  color:#4B0173;
+  text-shadow: 0 0 0.2em #4B0173;
+}
 .nav nav {
   margin: 0 10px;
 }
