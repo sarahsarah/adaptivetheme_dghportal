@@ -30,8 +30,8 @@ div#primary-menu-bar ul li a, div#primary-menu-bar ul li a:visited {
   color:#000;
   text-decoration:none;
 }
-div#primary-menu-bar ul li a:hover {
-  color:#4B0173;
+div#primary-menu-bar ul li a:hover, div#primary-menu-bar a.active {
+  color:#000;
   text-shadow: 0 0 0.2em #4B0173;
 }
 .nav nav {

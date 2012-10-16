@@ -1,7 +1,6 @@
 /* Page */
-body {
+.container {
   background-color:#F8F3E3;
-  font-family:'Open Sans',Arial,Helvetica,sans-serif;
 }
 div#primary-menu-bar ul {
 text-align:center;
@@ -9,7 +8,6 @@ margin-left:300px;
 color:black;
 text-decoration:none;
 }
-
 #secondary-menu-bar {
 display:none;
 }
@@ -17,7 +15,6 @@ section#block-views-featured-content-block {
 float:right;
 width:600px;
 }
-
 .home h1#page-title {
 display:none;
 }
@@ -33,12 +30,12 @@ position:relative;
   margin: 0 10px;
 }
 #site-name {}
-#site-name a,#site-name a:visited, #site-name a:hover {
+#site-name a, #site-name a:visited, #site-name a:hover {
   color:#e3c041;
   text-transform:uppercase;
   text-decoration:none;
   font-weight:600;
-  font-size:1.14em;
+  font-size:1em;
   margin-left:20px;
   line-height:1em;
   }
@@ -46,6 +43,68 @@ position:relative;
 /* Page title */
 h1#page-title {
   font-weight:500;
+}
+
+/* Home page */
+div.left {
+  float:left;
+}
+div.right {
+  float:right;
+}
+div.home-main {
+  width:49%;
+}
+.home-main p {
+  font-size:1.6em;
+}
+ul.facets {
+  list-style-type:none;
+  color:#fff;
+  line-height:125%;
+}
+ul.facets li {
+  height:160px;
+  width:280px;
+  background:transparent url(images/facet-bg.png) center center no-repeat;
+  margin:.9em 0;
+  font-size:.8em;
+}
+ul.facets li h2 {
+  text-shadow:0 0 2px #714DA2;
+  padding:1em 0 0 1em;
+  font-size:1.4em;
+}
+ul.facets li p {
+  padding:1em 0 0 1em;
+}
+ul.facets li a, ul.facets li a:visited {
+  color:#DDC146;
+  font-weight:600;
+  text-decoration:none;
+  padding:1em 0 0 1em;
+  font-size:1.2em;
+}
+.featured-content {
+  padding:.6em;
+  background-color:#DDC146;
+  margin-bottom:2em;
+}
+.featured-content ul {
+  list-style-type: none;
+  margin:0;
+  padding:.3em;
+  background-color:#EBE1B9;
+}
+.featured-content a, .featured-content a:visited {
+  text-decoration:none;
+  color:#000;
+}
+.course-lists ul {
+  list-style:square
+}
+.course-lists ul li a {
+  display:block;
 }
 .front h1#page-title {
   display:none;
