@@ -17,14 +17,18 @@ a:focus {}
  * #primary-menu-bar
  * #secondary-menu-bar
  */
-div#primary-menu-bar ul {
+div#primary-menu-bar {
   width:60%;
-  padding-left:30%;
-  margin:1em 0 2em 0;
+  margin:1em 20% 0 20%;
   text-align:center;
   text-decoration:none;
   font-weight:500;
   font-size:1.4em;
+  color:black;
+  border-bottom:1px solid #EDE1BA;
+}
+#primary-menu-bar ul {
+  padding:0 0 1em 25%;
 }
 div#primary-menu-bar ul li a, div#primary-menu-bar ul li a:visited {
   color:#000;
@@ -32,7 +36,13 @@ div#primary-menu-bar ul li a, div#primary-menu-bar ul li a:visited {
 }
 div#primary-menu-bar ul li a:hover, div#primary-menu-bar a.active {
   color:#000;
-  text-shadow: 0 0 0.2em #4B0173;
+  text-shadow: 0.1em 0 0.8em #DDC46A;
+}
+div#primary-menu-bar ul {
+
+}
+#secondary-menu-bar {
+display:none;
 }
 .nav nav {
   margin: 0 10px;
