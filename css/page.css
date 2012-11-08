@@ -56,6 +56,8 @@ ul.facets {
   list-style-type:none;
   color:#fff;
   line-height:125%;
+  border-top: 5px solid #dec146;
+  background:url(images/facets-bg.png) top left no-repeat;
 }
 ul.facets li {
   height:160px;
